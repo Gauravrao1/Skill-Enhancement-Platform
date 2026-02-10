@@ -443,14 +443,13 @@ The seed script creates:
 
 This project is open source and available for educational purposes.
 
-## 👥 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📧 Support
-
-For issues and questions, please open an issue on the repository.
-
+## 👥 Team
+Gaurav Rao
+Rashi Gupta
+Ayush Raj Sinha
+Shashank Awasthi
+## Author
+ Gaurav Rao
 ---
 
 **Built with ❤️ for learning and skill enhancement**
