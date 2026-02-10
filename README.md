@@ -4,15 +4,15 @@ A comprehensive learning platform that helps Children, Students, and Senior Citi
 
 ## 📋 Table of Contents
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Database Schema](#-database-schema)
-- [Setup Instructions](#-setup-instructions)
-- [API Documentation](#-api-documentation)
-- [Deployment Guide](#-deployment-guide)
-- [Wireframes](#-wireframes)
-- [Sample Data](#-sample-data)
+ [Features](#-features)
+ [Tech Stack](#-tech-stack)
+ [Project Structure](#-project-structure)
+ [Database Schema](#-database-schema)
+ [Setup Instructions](#-setup-instructions)
+ [API Documentation](#-api-documentation)
+ [Deployment Guide](#-deployment-guide)
+ [Wireframes](#-wireframes)
+ [Sample Data](#-sample-data)
 
 ## ✨ Features
 
