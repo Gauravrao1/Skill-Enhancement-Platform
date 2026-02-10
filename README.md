@@ -4,15 +4,15 @@ A comprehensive learning platform that helps Children, Students, and Senior Citi
 
 ## 📋 Table of Contents
 
- --[Features](#-features)
- --[Tech Stack](#-tech-stack)
- --[Project Structure](#-project-structure)
- --[Database Schema](#-database-schema)
- --[Setup Instructions](#-setup-instructions)
- --[API Documentation](#-api-documentation)
- --[Deployment Guide](#-deployment-guide)
- --[Wireframes](#-wireframes)
- --[Sample Data](#-sample-data)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Database Schema](#-database-schema)
+- [Setup Instructions](#-setup-instructions)
+- [API Documentation](#-api-documentation)
+- [Deployment Guide](#-deployment-guide)
+- [Wireframes](#-wireframes)
+- [Sample Data](#-sample-data)
 
 ## ✨ Features
 
@@ -439,17 +439,4 @@ The seed script creates:
    - Clear browser localStorage
    - Check JWT_SECRET matches in backend
 
-## 📝 License
-
-This project is open source and available for educational purposes.
-
-## 👥 Team
-Gaurav Rao
-Rashi Gupta
-Ayush Raj Sinha
-Shashank Awasthi
-## Author
- Gaurav Rao
----
-
-**Built with ❤️ for learning and skill enhancement**
+ and skill enhancement**
