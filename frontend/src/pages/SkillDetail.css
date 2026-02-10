@@ -1,0 +1,78 @@
+.skill-header {
+  text-align: center;
+  margin: 40px 0;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill-header-icon {
+  font-size: 5rem;
+  margin-bottom: 16px;
+}
+
+.skill-header h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 12px;
+}
+
+.skill-header p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.resources-list {
+  margin-top: 30px;
+}
+
+.resource-description {
+  color: #555;
+  margin: 12px 0;
+  line-height: 1.6;
+}
+
+.resource-creator {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+  margin: 8px 0;
+}
+
+.resource-rating {
+  color: #f39c12;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.bookmark-btn {
+  background: none;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  transition: all 0.3s ease;
+}
+
+.bookmark-btn:hover {
+  border-color: #3498db;
+  color: #3498db;
+}
+
+.bookmark-btn.bookmarked {
+  background-color: #3498db;
+  border-color: #3498db;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .skill-header-icon {
+    font-size: 3.5rem;
+  }
+
+  .skill-header h1 {
+    font-size: 2rem;
+  }
+}
