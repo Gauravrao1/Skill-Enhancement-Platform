@@ -2,41 +2,47 @@
   display: flex;
   gap: 16px;
   margin: 30px 0;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #e2e8f0;
 }
 
 .admin-tab {
   padding: 12px 24px;
   border: none;
-  background: none;
+  background: #f7fafc;
   font-size: 1.1rem;
   font-weight: 600;
-  color: #7f8c8d;
+  color: #4a5568;
   cursor: pointer;
   border-bottom: 3px solid transparent;
   transition: all 0.3s ease;
+  border-radius: 8px 8px 0 0;
 }
 
 .admin-tab:hover {
-  color: #3498db;
+  color: #667eea;
+  background: #edf2f7;
 }
 
 .admin-tab.active {
-  color: #3498db;
-  border-bottom-color: #3498db;
+  color: #667eea;
+  background: #ffffff;
+  border-bottom-color: #667eea;
+  font-weight: 700;
 }
 
 .admin-section {
-  background: white;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
   padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   margin-top: 20px;
 }
 
 .admin-section h2 {
-  color: #2c3e50;
+  color: #667eea;
   margin-bottom: 24px;
+  font-weight: 700;
 }
 
 .admin-form {
@@ -54,11 +60,19 @@
 }
 
 .admin-item {
-  background: #f8f9fa;
+  background: linear-gradient(135deg, rgba(102, 126, 234, 0.08) 0%, rgba(240, 147, 251, 0.08) 100%);
+  backdrop-filter: blur(10px);
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-bottom: 12px;
-  border-left: 4px solid #3498db;
+  border-left: 4px solid #667eea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.admin-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
 }
 
 .admin-item strong {

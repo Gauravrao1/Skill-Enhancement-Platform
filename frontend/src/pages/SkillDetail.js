@@ -10,7 +10,7 @@ const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 const SkillDetail = () => {
   const { id } = useParams();
   const navigate = useNavigate();
-  const { isAuthenticated, user } = useAuth();
+  const { isAuthenticated } = useAuth();
   
   const [skill, setSkill] = useState(null);
   const [resources, setResources] = useState([]);

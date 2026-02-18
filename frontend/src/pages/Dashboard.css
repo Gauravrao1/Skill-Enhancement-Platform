@@ -1,2 +1,20 @@
 /* Dashboard specific styles are in App.css */
 /* This file can be used for additional dashboard-specific styling */
+
+/* Additional dashboard enhancements */
+.dashboard-welcome {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-welcome h2 {
+  color: #667eea;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
