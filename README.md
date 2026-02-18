@@ -438,19 +438,24 @@ The seed script creates:
 4. **Authentication Issues**
    - Clear browser localStorage
    - Check JWT_SECRET matches in backend
+     and skill enhancement**
+🚀 Future Scope
 
-## 📝 License
+AI-based Skill Recommendation
 
-This project is open source and available for educational purposes.
+Progress Tracking System
 
-## 👥 Contributing
+Gamification Badges
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Multi-language Support
 
-## 📧 Support
+Community Discussion Feature
 
-For issues and questions, please open an issue on the repository.
+👥 Team Members
+Gaurav Rao
+Rashi Gupta
+Ayush Raj Sinha
+Shashank Awasthi
 
----
-
-**Built with ❤️ for learning and skill enhancement**
+📌 Author
+Gaurav Rao
