@@ -39,8 +39,15 @@ const Register = () => {
       return;
     }
 
-    if (formData.password.length < 6) {
-      setError('Password must be at least 6 characters');
+    if (formData.password.length < 8) {
+      setError('Password must be at least 8 characters');
+      return;
+    }
+
+    // Check password complexity
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/;
+    if (!passwordRegex.test(formData.password)) {
+      setError('Password must contain at least one uppercase letter, one lowercase letter, and one number');
       return;
     }
 
@@ -125,7 +132,7 @@ const Register = () => {
               value={formData.password}
               onChange={handleChange}
               required
-              placeholder="Enter your password (min 6 characters)"
+              placeholder="Min 8 chars, 1 uppercase, 1 lowercase, 1 number"
             />
           </div>
 

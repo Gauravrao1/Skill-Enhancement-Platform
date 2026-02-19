@@ -59,9 +59,19 @@ export const AuthProvider = ({ children }) => {
       axios.defaults.headers.common['Authorization'] = `Bearer ${newToken}`;
       return { success: true };
     } catch (error) {
+      const errorData = error.response?.data;
+      let message = 'Login failed';
+      
+      if (errorData?.errors && Array.isArray(errorData.errors)) {
+        // Handle validation errors array
+        message = errorData.errors.map(err => err.message).join('. ');
+      } else if (errorData?.message) {
+        message = errorData.message;
+      }
+      
       return {
         success: false,
-        message: error.response?.data?.message || 'Login failed'
+        message
       };
     }
   };
@@ -81,9 +91,19 @@ export const AuthProvider = ({ children }) => {
       axios.defaults.headers.common['Authorization'] = `Bearer ${newToken}`;
       return { success: true };
     } catch (error) {
+      const errorData = error.response?.data;
+      let message = 'Registration failed';
+      
+      if (errorData?.errors && Array.isArray(errorData.errors)) {
+        // Handle validation errors array
+        message = errorData.errors.map(err => err.message).join('. ');
+      } else if (errorData?.message) {
+        message = errorData.message;
+      }
+      
       return {
         success: false,
-        message: error.response?.data?.message || 'Registration failed'
+        message
       };
     }
   };
